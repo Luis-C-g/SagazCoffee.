@@ -1,0 +1,23 @@
+.divprincipal{
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+@media (max-width: 768px) {
+    .divprincipal{height:60vh;}
+}
+.h1principal{
+    font-size: 2.5rem;
+}
+.h2principal{
+    font-size: 1.8rem;
+}
+.imglogo{
+    width: 15%;
+
+}
